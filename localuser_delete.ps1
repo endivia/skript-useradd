@@ -7,12 +7,12 @@ $PASSWORD = ConvertTo-SecureString "qwerty" -AsPlaintext -Force
 #KUI KASUTAJA ON LOONUD ANNAME TERVITUSINFO KASUTAJALE 
 Write-Host "Kustutav kasutaja on $USER_NAME Oled kindel et soovid ?" 
 Write-Host " Kas soovite jatkata kasutaja kustutamisel?" 
-#lisame kasutaja
+# kasutaja kustutamise käsk
 Remove-LocalUser $ACCOUNT_NAME -FirstName" $ACOUNT_NAME "- MailName "$MAIL_NAME "-Password "$PASSWORD" -ErrorAction Stop
 Write-Host "Kasutaja on kustutatud."
 
 £ KONTROLLIME KAS ON S[STEEMIS SEE KASUTAJA 
-#KUI JAH SIIS SISESTAME KASUTAJA 
+#KUI JAH SIIS emaldame KASUTAJA 
 #KUI KASUTAJA ON SÜSTEEMIS ANNAME TEADA "See kasutaja on olemas "
 if(Get-LocalUser -Name USER_NAME  -ErrorAction SilentLycontinue){
 #Prrov kasutaja emaldada

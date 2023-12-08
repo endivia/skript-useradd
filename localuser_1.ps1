@@ -9,7 +9,7 @@ Write-Host "Loodav kasutaja on $USER_NAME " Yes
 Write-Host " Kas soovite jatkata kasutaja loomisel?" Yes/No?
 #lisame kasutaja
 New-UserName $ACCOUNT_NAME -FirstName" $ACOUNT_NAME "- MailName "$MAIL_NAME "-Password "$PASSWORD" 
-£ KONTROLLIME KAS ON S[STEEMIS SEE KASUTAJA 
+#KONTROLLIME KAS ON S[STEEMIS SEE KASUTAJA 
 #KUI JAH SIIS SISESTAME KASUTAJA 
 #KUI KASUTAJA ON SÜSTEEMIS ANNAME TEADA "See kasutaja on olemas "
 if($USER_NAME=$args[1]) #kui kasutaja ei ole 

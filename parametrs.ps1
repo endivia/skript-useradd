@@ -1,3 +1,3 @@
 #parametrid
-$username =[1]
-$acountname =[1]
+$username =args[1]
+$acountname =args[1]
